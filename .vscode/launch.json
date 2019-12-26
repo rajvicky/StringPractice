@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringPractice",
+            "request": "launch",
+            "mainClass": "StringPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        }
+    ]
+}
