@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class StringPractice{
     public static void main(String []args){
         String st=new String ("Durga");
@@ -11,10 +13,12 @@ class StringPractice{
          boolean op=st==st2;
          StringBuffer st1=new StringBuffer("Durga");
          StringBuffer St3=new StringBuffer("Durga");
-         StringBuffer st4=new StringBuffer(null);
+         //StringBuffer st4=new StringBuffer(null);
          boolean sta=st1.equals(St3);
          System.out.println(st1==St3);
          System.out.println(st.hashCode());
+         Arrays.sort(a);
+         //StringBuffer stf="Hi";
          //* Check String Constant Pool
          /* If you are using string literal in string it will be created separate 
          string pool for string literalin java,
