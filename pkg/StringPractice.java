@@ -15,5 +15,10 @@ class StringPractice{
          boolean sta=st1.equals(St3);
          System.out.println(st1==St3);
          System.out.println(st.hashCode());
+         //* Check String Constant Pool
+         /* If you are using string literal in string it will be created separate 
+         string pool for string literalin java,
+         
+         */ 
     }
 }
